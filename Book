@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #f8f9fa;
+            padding: 40px;
+        }
+        header img {
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .books {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .book {
+            background-color: #fff;
+            padding: 30px;
+            margin: 20px;
+            width: 350px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-radius: 10px;
+        }
+        .book img {
+            width: 100%;
+            max-height: 500px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .book h3 {
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        .price {
+            color: #007bff;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .contact-info {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        .contact-info h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- New image for the header -->
+    <img src="https://www.example.com/new-banner.jpg" alt="New Book Store Banner">
+</header>
+
+<div class="books">
+    <div class="book">
+        <img src="book1.jpg" alt="The Black Universe">
+        <h3>The Black Universe</h3>
+        <p>An epic fantasy novel about the journey through a mysterious world where heroes face dark forces and uncover ancient secrets.</p>
+        <p class="price">$19.99</p>
+    </div>
+    
+    <div class="book">
+        <img src="book2.jpg" alt="Dare to Go There">
+        <h3>Dare to Go There</h3>
+        <p>A thrilling adventure story that pushes the boundaries of courage as protagonists explore uncharted lands and forbidden places.</p>
+        <p class="price">$14.99</p>
+    </div>
+    
+    <div class="book">
+        <img src="book3.jpg" alt="Echoes of the Past">
+        <h3>Echoes of the Past</h3>
+        <p>A gripping historical fiction that dives into the lives of characters affected by the tides of time and historical events.</p>
+        <p class="price">$16.99</p>
+    </div>
+    
+    <div class="book">
+        <img src="book4.jpg" alt="Whispers of Tomorrow">
+        <h3>Whispers of Tomorrow</h3>
+        <p>A science fiction masterpiece exploring the consequences of technological advancements on humanity’s future.</p>
+        <p class="price">$21.99</p>
+    </div>
+    
+    <div class="book">
+        <img src="book5.jpg" alt="Hidden Realms">
+        <h3>Hidden Realms</h3>
+        <p>A fantasy novel uncovering hidden worlds that exist within our own, filled with mystical creatures and enchanted lands.</p>
+        <p class="price">$17.99</p>
+    </div>
+    
+    <div class="book">
+        <img src="book6.jpg" alt="Mystery in the Mist">
+        <h3>Mystery in the Mist</h3>
+        <p>A detective novel that follows the journey of a seasoned investigator solving crimes amidst a backdrop of fog and secrets.</p>
+        <p class="price">$18.99</p>
+    </div>
+</div>
+
+<div class="contact-info">
+    <h3>Contact Us</h3>
+    <p>Phone: 631-646-8624</p>
+    <p>Email: rabinaridhi35@gmail.com</p>
+    <p>Address: 123 Main St, New York, NY 10001, USA</p>
+</div>
+
+</body>
+</html>
